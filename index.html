@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Image Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Image Generator</h1>
+
+<div class="prompt-box">
+<input id="prompt" placeholder="Describe your image...">
+<button onclick="generateImage()">Generate</button>
+<button onclick="randomPrompt()">Random</button>
+</div>
+
+<div id="loading" class="loading">
+Generating image...
+</div>
+
+<div class="gallery" id="gallery"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
